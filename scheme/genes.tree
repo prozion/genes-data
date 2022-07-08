@@ -1,0 +1,41 @@
+genes a:owl/Ontology dc/title:"Genes scheme" ns:https://purl.org/agingontology/genes#
+	namespaces
+		rdf ns:http://www.w3.org/1999/02/22-rdf-syntax-ns#
+		rdfs ns:http://www.w3.org/2000/01/rdf-schema#
+		owl ns:http://www.w3.org/2002/07/owl#
+		dc ns:http://purl.org/dc/elements/1.1/
+		skos ns:http://www.w3.org/2004/02/skos/core#
+		cell ns:https://purl.org/agingontology/cell#
+	classes +a:owl/Class +section-hierarchy-inverse-relation:subclass-of
+		Gene
+	properties +a:rdf/Property +section-hierarchy-inverse-relation:subproperty-of
+		chromosome domain:Gene range:cell/Chromosome
+		entry-name domain:Gene range:rdfs/Literal 
+		mim-code domain:Gene range:rdfs/Literal
+		pos domain:Gene range:rdfs/Literal 
+		swprot-ac domain:Gene range:rdfs/Literal 
+	individuals
+		Chromosome_1 a:cell/Chromosome
+		Chromosome_2 a:cell/Chromosome
+		Chromosome_3 a:cell/Chromosome
+		Chromosome_4 a:cell/Chromosome
+		Chromosome_5 a:cell/Chromosome
+		Chromosome_6 a:cell/Chromosome
+		Chromosome_7 a:cell/Chromosome
+		Chromosome_8 a:cell/Chromosome
+		Chromosome_9 a:cell/Chromosome
+		Chromosome_10 a:cell/Chromosome
+		Chromosome_11 a:cell/Chromosome
+		Chromosome_12 a:cell/Chromosome
+		Chromosome_13 a:cell/Chromosome
+		Chromosome_14 a:cell/Chromosome
+		Chromosome_15 a:cell/Chromosome
+		Chromosome_16 a:cell/Chromosome
+		Chromosome_17 a:cell/Chromosome
+		Chromosome_18 a:cell/Chromosome
+		Chromosome_19 a:cell/Chromosome
+		Chromosome_20 a:cell/Chromosome
+		Chromosome_21 a:cell/Chromosome
+		Chromosome_22 a:cell/Chromosome
+		Chromosome_X a:cell/Chromosome
+		Chromosome_Y a:cell/Chromosome
