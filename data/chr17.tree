@@ -172,7 +172,7 @@ Chromosome_17 src-url:uniprot.org/docs/humchr17.txt genes-total-number:1172 +sec
 	SMTNL2 pos:17p13.2 swprot-ac:Q2TAL5 entry-name:SMTL2_HUMAN mim-code:Smoothelin-like d:"protein 2"
 	MYH1 pos:17p13.1 swprot-ac:P12882 entry-name:MYH1_HUMAN mim-code:160730 d:"Myosin-1 (Myosin heavy chain 1) (Myosin heavy chain 2x) (MyHC-2x) (Myosin heavy chain IIx/d) (MyHC-IIx/d) (Myosin heavy chain, skeletal muscle, adult 1)"
 	CCDC42 pos:17p13.1 swprot-ac:Q96M95 entry-name:CCD42_HUMAN mim-code:Coiled-coil d:"domain-containing protein 42 [CCDC42A]"
-	DNAH2 pos:17p13.1 swprot-ac:Q9P225 entry-name:DYH2_HUMAN mim-code:603333 d:"Dynein heavy chain 2, axonemal (Axonemal beta dynein heavy chain 2) (Ciliary dynein heavy chain 2) (Dynein heavy chain domain-containing protein 3) [DNAHC2] [DNHD3] [KIAA1503]"
+	DNAH2 a:ch/AxonemalDynein pos:17p13.1 swprot-ac:Q9P225 entry-name:DYH2_HUMAN mim-code:603333 d:"Dynein heavy chain 2, axonemal (Axonemal beta dynein heavy chain 2) (Ciliary dynein heavy chain 2) (Dynein heavy chain domain-containing protein 3) [DNAHC2] [DNHD3] [KIAA1503]"
 	CHD3 pos:17p13.1 swprot-ac:Q12873 entry-name:CHD3_HUMAN mim-code:602120 d:"Chromodomain-helicase-DNA-binding protein 3 (EC 3.6.4.12) (CHD-3) (ATP-dependent helicase CHD3) (Mi-2 autoantigen 240 kDa protein) (Mi2-alpha) (Zinc finger helicase) (hZFH)"
 	GSG1L2 pos:17p13.1 swprot-ac:A8MUP6 entry-name:GS1L2_HUMAN mim-code:Germ d:"cell-specific gene 1-like protein 2 (GSG1-like protein 2)"
 	TMEM11 pos:17p13.1 swprot-ac:P17152 entry-name:TMM11_HUMAN mim-code:618817 d:"Transmembrane protein 11, mitochondrial (Protein PM1) (Protein PMI) [C17orf35] [PM1]"

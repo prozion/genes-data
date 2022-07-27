@@ -1,5 +1,5 @@
-Chromosome_1 src-url:uniprot.org/docs/humchr01.txt genes-total-number:2074 +section-hierarchy-inverse-relation:chromosome
-	EDN2 pos:1pter-p21 swprot-ac:P20800 entry-name:EDN2_HUMAN mim-code:131241 d:"Endothelin-2 precursor (ET-2) (Preproendothelin-2) (PPET2)"
+Chromosome_1 +a:Gene src-url:uniprot.org/docs/humchr01.txt genes-total-number:2074 +section-hierarchy-inverse-relation:chromosome
+	EDN2 pos:1pter-p21 swprot-ac:P20800 entry-name:EDN2_HUMAN mim-code:131241 d:"Endothelin-2 precursor (ET-2) (Preproendothelin-2) (PPET2)" 
 	RER1 pos:1pter-q24 swprot-ac:O15258 entry-name:RER1_HUMAN mim-code:Protein d:RER1
 	GJA5 pos:1pter-q12 swprot-ac:P36382 entry-name:CXA5_HUMAN mim-code:121013 d:"Gap junction alpha-5 protein (Connexin-40) (Cx40)"
 	PEX14 pos:1pter-p12 swprot-ac:O75381 entry-name:PEX14_HUMAN mim-code:601791 d:"Peroxisomal membrane protein PEX14 (PTS1 receptor-docking protein) (Peroxin-14) (Peroxisomal membrane anchor protein PEX14)"

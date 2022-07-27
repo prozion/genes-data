@@ -5,37 +5,46 @@ genes a:owl/Ontology dc/title:"Genes scheme" ns:https://purl.org/agingontology/g
 		owl ns:http://www.w3.org/2002/07/owl#
 		dc ns:http://purl.org/dc/elements/1.1/
 		skos ns:http://www.w3.org/2004/02/skos/core#
-		cell ns:https://purl.org/agingontology/cell#
+		web ns:https://purl.org/tabtree/web#
+		n ns:https://purl.org/agingontology/nucleus#
+		c ns:https://purl.org/agingontology/cell#
+		p ns:https://purl.org/agingontology/proteins#
 	classes +a:owl/Class +section-hierarchy-inverse-relation:subclass-of
 		Gene
 	properties +a:rdf/Property +section-hierarchy-inverse-relation:subproperty-of
 		chromosome domain:Gene range:cell/Chromosome
 		entry-name domain:Gene range:rdfs/Literal 
+		f subproperty-of:rdf/type
+		genes-total-number domain:Chromosome range:rdfs/Literal
+		loc domain:Gene range:c/ElementLocation
 		mim-code domain:Gene range:rdfs/Literal
+		organ
 		pos domain:Gene range:rdfs/Literal 
+		src-url subproperty-of:web/url domain:cell/Chromosome
 		swprot-ac domain:Gene range:rdfs/Literal 
+		tissue
 	individuals
-		Chromosome_1 a:cell/Chromosome
-		Chromosome_2 a:cell/Chromosome
-		Chromosome_3 a:cell/Chromosome
-		Chromosome_4 a:cell/Chromosome
-		Chromosome_5 a:cell/Chromosome
-		Chromosome_6 a:cell/Chromosome
-		Chromosome_7 a:cell/Chromosome
-		Chromosome_8 a:cell/Chromosome
-		Chromosome_9 a:cell/Chromosome
-		Chromosome_10 a:cell/Chromosome
-		Chromosome_11 a:cell/Chromosome
-		Chromosome_12 a:cell/Chromosome
-		Chromosome_13 a:cell/Chromosome
-		Chromosome_14 a:cell/Chromosome
-		Chromosome_15 a:cell/Chromosome
-		Chromosome_16 a:cell/Chromosome
-		Chromosome_17 a:cell/Chromosome
-		Chromosome_18 a:cell/Chromosome
-		Chromosome_19 a:cell/Chromosome
-		Chromosome_20 a:cell/Chromosome
-		Chromosome_21 a:cell/Chromosome
-		Chromosome_22 a:cell/Chromosome
-		Chromosome_X a:cell/Chromosome
-		Chromosome_Y a:cell/Chromosome
+		Chromosome_1 a:n/Chromosome
+		Chromosome_2 a:n/Chromosome
+		Chromosome_3 a:n/Chromosome
+		Chromosome_4 a:n/Chromosome
+		Chromosome_5 a:n/Chromosome
+		Chromosome_6 a:n/Chromosome
+		Chromosome_7 a:n/Chromosome
+		Chromosome_8 a:n/Chromosome
+		Chromosome_9 a:n/Chromosome
+		Chromosome_10 a:n/Chromosome
+		Chromosome_11 a:n/Chromosome
+		Chromosome_12 a:n/Chromosome
+		Chromosome_13 a:n/Chromosome
+		Chromosome_14 a:n/Chromosome
+		Chromosome_15 a:n/Chromosome
+		Chromosome_16 a:n/Chromosome
+		Chromosome_17 a:n/Chromosome
+		Chromosome_18 a:n/Chromosome
+		Chromosome_19 a:n/Chromosome
+		Chromosome_20 a:n/Chromosome
+		Chromosome_21 a:n/Chromosome
+		Chromosome_22 a:n/Chromosome
+		Chromosome_X a:n/Chromosome
+		Chromosome_Y a:n/Chromosome

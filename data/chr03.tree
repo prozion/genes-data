@@ -759,7 +759,7 @@ Chromosome_3 src-url:uniprot.org/docs/humchr03.txt genes-total-number:1078 +sect
 	TREX1 pos:3p21.3 swprot-ac:Q9NSU2 entry-name:TREX1_HUMAN mim-code:606609 d:"Three-prime repair exonuclease 1 (EC 3.1.11.2) (3'-5' exonuclease TREX1) (Deoxyribonuclease III) (DNase III)"
 	PROK2 pos:3p21.1 swprot-ac:Q9HC23 entry-name:PROK2_HUMAN mim-code:607002 d:"Prokineticin-2 precursor (PK2) (Protein Bv8 homolog) [BV8]"
 	TMIE pos:3p21 swprot-ac:Q8NEW7 entry-name:TMIE_HUMAN mim-code:607237 d:"Transmembrane inner ear expressed protein precursor"
-	DNAH1 pos:3p21.1 swprot-ac:Q9P2D7 entry-name:DYH1_HUMAN mim-code:603332 d:"Dynein heavy chain 1, axonemal (Axonemal beta dynein heavy chain 1) (Ciliary dynein heavy chain 1) (Heat shock regulated protein 1) (HSRF-1) (hDHC7) [DHC7] [DNAHC1] [KIAA1410]"
+	DNAH1 a:ch/AxonemalDynein pos:3p21.1 swprot-ac:Q9P2D7 entry-name:DYH1_HUMAN mim-code:603332 d:"Dynein heavy chain 1, axonemal (Axonemal beta dynein heavy chain 1) (Ciliary dynein heavy chain 1) (Heat shock regulated protein 1) (HSRF-1) (hDHC7) [DHC7] [DNAHC1] [KIAA1410]"
 	CCR5 pos:3p21 swprot-ac:P51681 entry-name:CCR5_HUMAN mim-code:601373 d:"C-C chemokine receptor type 5 (C-C CKR-5) (CC-CKR-5) (CCR-5) (CCR5) (CHEMR13) (HIV-1 fusion coreceptor) (CD195 antigen) [CMKBR5]"
 	SPINK8 pos:3p21.31 swprot-ac:P0C7L1 entry-name:ISK8_HUMAN mim-code:Serine d:"protease inhibitor Kazal-type 8 precursor"
 	CACNA2D2 pos:3p21.3 swprot-ac:Q9NY47 entry-name:CA2D2_HUMAN mim-code:607082 d:"Voltage-dependent calcium channel subunit alpha-2/delta-2 precursor (Voltage-gated calcium channel subunit alpha-2/delta-2) [Contains: Voltage-dependent calcium channel subunit alpha-2-2; Voltage-dependent calcium channel subunit delta-2] [KIAA0558]"
